@@ -1,0 +1,32 @@
+.story-dp{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-color: rgb(233, 61, 221);
+    border-width: 3px;
+    border-radius: 30px;
+}
+.status-feed{
+    display: flex;
+    width: 780px;
+    height: 100px;
+    z-index: 40;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.stories{
+    margin-left: 10px;
+    text-align: center;
+    display: inline;
+    cursor: pointer;
+}
+.story-owner{
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600px;
+}
